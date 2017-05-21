@@ -1,0 +1,58 @@
+img {
+  width: 900px;
+  margin: auto;
+  display: block;
+}
+
+.img2 {
+  width: 750px;
+}
+
+.f15, .f16, .f17, .f18, {
+  text-indent: 1cm;
+}
+
+.style {
+  font-size: 70px;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.img1 {
+  width: 375px;
+}
+
+.contact {
+  text-indent: 2cm;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.img3 {
+  width: 700px;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+p {
+  color: purple;
+  font-size: 20px;
+  font-style: italic;
+  font-family: cursive;
+  text-indent: 1cm;
+}
+
+h2 {
+  text-align: center;
+}
+
+.well {
+  font-size: 20px;
+}
