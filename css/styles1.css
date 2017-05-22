@@ -1,0 +1,21 @@
+.price {
+  display: none;
+  text-indent: 5cm;
+  font-size: 40px;
+}
+
+body {
+  background-color: lightgreen;
+  font-style: italic;
+  font-family: cursive;
+}
+
+h1 ,h2 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+#formOne {
+  color: purple;
+  font-size: 20px;
+}

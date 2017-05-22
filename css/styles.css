@@ -56,3 +56,86 @@ h2 {
 .well {
   font-size: 20px;
 }
+
+a {
+  color: darkred;
+  font-size: 40px;
+}
+
+.click1 {
+  cursor: pointer;
+  color: green;
+}
+
+.click1:hover {
+  text-decoration: underline;
+}
+
+.cs-show {
+  display: none;
+}
+
+.click2 {
+  cursor: pointer;
+  color: black;
+}
+
+.click2:hover {
+  text-decoration: underline;
+}
+
+.rc-show {
+  display: none;
+}
+
+.click3 {
+  cursor: pointer;
+  color: green;
+}
+
+.click3:hover {
+  text-decoration: underline;
+}
+
+.ps-show {
+  display: none;
+}
+
+.click4 {
+  cursor: pointer;
+  color: black;
+}
+
+.click4:hover {
+  text-decoration: underline;
+}
+
+.ho-show {
+  display: none;
+}
+
+.click5 {
+  cursor: pointer;
+  color: green;
+}
+
+.click5:hover {
+  text-decoration: underline;
+}
+
+.vr-show {
+  display: none;
+}
+
+.click6 {
+  cursor: pointer;
+  color: black;
+}
+
+.click6:hover {
+  text-decoration: underline;
+}
+
+.bs-show {
+  display: none;
+}
