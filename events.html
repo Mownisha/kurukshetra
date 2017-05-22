@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles1.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts1.js"></script>
+    <title>Event Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>EVENT REGISTRATION</h1>
+      </div>
+      <h2><strong>Enter your details!</strong></h2>
+        <div>
+          <form id="formOne">
+
+            <div class="form-group">
+              <label for="name">Enter your name:</label>
+              <input type="name" class="form-control" id="name">
+            </div><br>
+
+            <div class="form-group">
+              <label for="name">Enter your course:</label>
+              <input type="name" class="form-control" id="course">
+            </div><br>
+
+            <label for="college">Select your college:</label>
+            <select class="form-control" id="college">
+              <option value="ceg">College of Engineering, Guindy</option>
+              <option value="act">Azhagappa College of Technology</option>
+              <option value="sap">School of Architecture and Planning</option>
+              <option value="others">Others</option>
+            </select>
+            <br><br>
+
+            <label for="year">Select your course year:</label>
+            <div class="radio">
+              <label>
+              <input type="radio" name="year" value="first">
+               First year
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="year" value="second">
+               Second year
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="year" value="third">
+               Third year
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="year" value="fourth">
+               Fourth year
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="year" value="fifth">
+               Fifth year
+              </label>
+            </div>
+
+            <br><br>
+            <label for="cyear">Corresponding Year:</label>
+            <div class="radio">
+              <label>
+              <input type="radio" name="interval" value="2016 - 2017">
+               2016 - 2017
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="interval" value="2017 - 2018">
+               2017 - 2018
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="interval" value="2018 - 2019">
+               2018 - 2019
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="interval" value="2019 - 2020">
+               2019 - 2020
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="interval" value="2020 - 2021">
+               2020 - 2021
+              </label>
+            </div><br>
+
+            <label for="college">Select the event which you want to participate:</label>
+            <select class="form-control" id="event">
+              <option value="Engineering">Engineering</option>
+              <option value="Robotics">Robotics</option>
+              <option value="Management">Management</option>
+              <option value="Quiz">Quiz</option>
+              <option value="Extravanganza">Extravanganza</option>
+              <option value="Coding">Coding</option>
+              <option value="Online">Online</option>
+              <option value="TheDroneRace">TheDroneRace</option>
+            </select>
+            <br><br><br>
+
+            <button type=submit class="btn bg-primary">Click to Register!</button>
+          </form>
+        </div><br><br>
+
+        <div class="price">
+          <h4>The registration amount for this event is: <span id="result"></span></h4><br><br>
+          <p>YOUR NAME           :<span class="name1"></span></p>
+          <p>YOUR COURSE         :<span class="course1"></span></p>
+          <p>YOUR COLLEGE        :<span class="college1"></span></p>
+          <p>COURSE YEAR         :<span class="year1"></span></p>
+          <p>CORRESPONDING YEAR  :<span class="interval1"></span></p>
+          <p>PARTICIPATING EVENT :<span class="events"></span></p>
+        </div>
+        <br><br><br>
+
+    </div>
+  </body>
+</html>
